@@ -1,0 +1,16 @@
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.img-item {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.img-item img {
+    max-width: 100%;
+    height: auto;
+}
